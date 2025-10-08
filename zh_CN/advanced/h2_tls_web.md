@@ -102,7 +102,7 @@ https://<Host> {
     root * <Path to webroot>
     file_server
     tls <Path to cert> <Path to key>
-    proxy <H2 Path> https://localhost:<Port> {
+    proxy <H2 Path> http://localhost:<Port> {
         transport http {
             versions h2c
         }
